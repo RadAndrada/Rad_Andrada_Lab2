@@ -25,7 +25,7 @@ namespace Rad_Andrada_Lab2.Pages.Authors
         {
             if (_context.Authors != null)
             {
-                Author = await _context.Authors.ToListAsync();
+                Author = await _context.Author.ToListAsync();
             }
         }
     }

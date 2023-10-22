@@ -9,6 +9,8 @@ namespace Rad_Andrada_Lab2.Data
 {
     public class Rad_Andrada_Lab2Context : DbContext
     {
+        internal object Authors;
+
         public Rad_Andrada_Lab2Context (DbContextOptions<Rad_Andrada_Lab2Context> options)
             : base(options)
         {

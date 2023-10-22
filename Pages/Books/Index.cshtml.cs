@@ -27,7 +27,7 @@ namespace Rad_Andrada_Lab2.Pages.Books
             if (_context.Book != null)
             {
                 Book = await _context.Book.Include(b => b.Publisher).ToListAsync();
-                Authors = await _context.Authors.ToListAsync();
+                Authors = await _context.Author.ToListAsync();
             }
         }
     }
