@@ -12,8 +12,8 @@ using Rad_Andrada_Lab2.Data;
 namespace Rad_Andrada_Lab2.Migrations.LibraryIdentity
 {
     [DbContext(typeof(LibraryIdentityContext))]
-    [Migration("20231107135651_CreateIdentity")]
-    partial class CreateIdentity
+    [Migration("20231113155033_IdentityMigration")]
+    partial class IdentityMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

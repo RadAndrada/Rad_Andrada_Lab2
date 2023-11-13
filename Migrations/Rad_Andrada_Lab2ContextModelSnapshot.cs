@@ -58,7 +58,7 @@ namespace Rad_Andrada_Lab2.Migrations
                         .HasColumnType("int");
 
                     b.Property<decimal>("Price")
-                        .HasColumnType("decimal(6, 2");
+                        .HasColumnType("decimal(6,2)");
 
                     b.Property<int?>("PublisherID")
                         .HasColumnType("int");
